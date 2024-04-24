@@ -9,7 +9,7 @@ echo
 
 #Greeting
 espeak "Hi! My name is peepeepoopoo and I am a machine designed to help with every day activities." &
-python greeting.py
+python3 greeting.py
 
 echo
 echo
@@ -20,9 +20,9 @@ wait
 echo "----------------------"
 echo "   Availabe Actions   "
 echo "----------------------"
-python create_folder.py
-python create_file.py
-python terminate_script.py
+python3 create_folder.py
+python3 create_file.py
+python3 terminate_script.py
 echo "----------------------"
 
 echo
