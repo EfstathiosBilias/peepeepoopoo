@@ -67,7 +67,7 @@ while true; do
 		((count_error++))
 		wait
 		espeak "Invalid argument. Please try again!" &
-		python invalid_argument.py
+		python3 invalid_argument.py
 		wait
 		;;
 	esac
